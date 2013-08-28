@@ -8,6 +8,7 @@
 
 #import "TV.h"
 #import "Data.h"
+#include "AppDelegate.h"
 
 @implementation TV
 
@@ -19,8 +20,10 @@
     
     keyToSend = key;
     
+	AppDelegate* delegate = [NSApplication sharedApplication].delegate;
+	
     CFWriteStreamRef writeStream;
-    CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)[NSString stringWithFormat: @"192.168.1.93"], 55000, NULL, &writeStream);
+    CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)delegate.tvIp, 55000, NULL, &writeStream);
     oStream = (__bridge NSOutputStream *)writeStream;
     [oStream setDelegate:self];
     [oStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
@@ -32,10 +35,12 @@
 {
     if (keyToSend.length <= 0)
         return;
+	
+	AppDelegate* delegate = [NSApplication sharedApplication].delegate;
     
-    NSString* myIp      = @"192.168.1.90";
+    NSString* myIp      = delegate.tvIp;
     NSString* appString = @"iphone..iapp.samsung";
-    NSString* myMac     = @"Samsung Reemote Widget";
+    NSString* myMac     = @"Samsung Remote Widget";
     NSString* tvAppString = @"iphone.UE32C6500.iapp.samsung";
     NSString* remoteName  = @"OSX Samsung Remote";
     

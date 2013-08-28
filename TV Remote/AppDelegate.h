@@ -10,13 +10,14 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
-    NSString* tvIp;
     NSUserDefaults* standardUserDefaults;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSTextField *tvIpText;
 @property (assign) IBOutlet NSButton *button;
+
+@property NSString* tvIp;
 
 - (IBAction)clickOnInfo:(id)sender;
 - (IBAction)ipEditFinished:(id)sender;

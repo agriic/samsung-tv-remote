@@ -16,12 +16,12 @@
     NSLog(@"TV App loaded");
     
     // defaults
-    tvIp = @"";
+    _tvIp = @"";
     standardUserDefaults = [NSUserDefaults standardUserDefaults];
     
     // inits app
-    if (standardUserDefaults) tvIp = [standardUserDefaults stringForKey:@"tvIp"];
-    if (tvIp == NULL) tvIp = @""; else self.tvIpText.stringValue = tvIp;
+    if (standardUserDefaults) _tvIp = [standardUserDefaults stringForKey:@"tvIp"];
+    if (_tvIp == NULL) _tvIp = @""; else self.tvIpText.stringValue = _tvIp;
 }
 
 //- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
