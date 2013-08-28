@@ -8,39 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		043B078D1767D0520012FA86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043B078C1767D0520012FA86 /* Cocoa.framework */; };
-		043B07971767D0520012FA86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043B07951767D0520012FA86 /* InfoPlist.strings */; };
-		043B07991767D0520012FA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B07981767D0520012FA86 /* main.m */; };
-		043B079D1767D0520012FA86 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 043B079B1767D0520012FA86 /* Credits.rtf */; };
-		043B07A01767D0520012FA86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B079F1767D0520012FA86 /* AppDelegate.m */; };
-		043B07A51767D0520012FA86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043B07A41767D0520012FA86 /* Images.xcassets */; };
-		043B07C21767D5D60012FA86 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B07C11767D5D60012FA86 /* MainView.m */; };
-		043B07C51767EEB70012FA86 /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B07C41767EEB70012FA86 /* TV.m */; };
-		043B07C817687DD60012FA86 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B07C717687DD60012FA86 /* Data.m */; };
-		30872F6A17CE4940000F7FE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30872F6817CE4940000F7FE5 /* MainMenu.xib */; };
+		30872F7317CE4A78000F7FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30872F6C17CE4A78000F7FE5 /* AppDelegate.m */; };
+		30872F7417CE4A78000F7FE5 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 30872F6E17CE4A78000F7FE5 /* Data.m */; };
+		30872F7517CE4A78000F7FE5 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30872F7017CE4A78000F7FE5 /* MainView.m */; };
+		30872F7617CE4A78000F7FE5 /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 30872F7217CE4A78000F7FE5 /* TV.m */; };
+		30872F7917CE4A99000F7FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30872F7717CE4A99000F7FE5 /* main.m */; };
+		30872F7A17CE4A99000F7FE5 /* TV Remote-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30872F7817CE4A99000F7FE5 /* TV Remote-Info.plist */; };
+		30872F8017CE4B1B000F7FE5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 30872F7C17CE4B1B000F7FE5 /* Credits.rtf */; };
+		30872F8117CE4B1B000F7FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30872F7E17CE4B1B000F7FE5 /* InfoPlist.strings */; };
+		30872F8317CE4B29000F7FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30872F8217CE4B29000F7FE5 /* Images.xcassets */; };
+		30872F8617CE4B4A000F7FE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30872F8417CE4B4A000F7FE5 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		043B07891767D0520012FA86 /* TV Remote 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Remote 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043B07891767D0520012FA86 /* TV Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		043B078C1767D0520012FA86 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		043B078F1767D0520012FA86 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		043B07901767D0520012FA86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		043B07911767D0520012FA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		043B07941767D0520012FA86 /* TV Remote 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TV Remote 2-Info.plist"; sourceTree = "<group>"; };
-		043B07961767D0520012FA86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		043B07981767D0520012FA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		043B079A1767D0520012FA86 /* TV Remote 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TV Remote 2-Prefix.pch"; sourceTree = "<group>"; };
-		043B079C1767D0520012FA86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		043B079E1767D0520012FA86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		043B079F1767D0520012FA86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		043B07A41767D0520012FA86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		043B07AB1767D0520012FA86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		043B07C01767D5D60012FA86 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		043B07C11767D5D60012FA86 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
-		043B07C31767EEB70012FA86 /* TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
-		043B07C41767EEB70012FA86 /* TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
-		043B07C617687DD60012FA86 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
-		043B07C717687DD60012FA86 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
-		30872F6917CE4940000F7FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		30872F6B17CE4A78000F7FE5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "TV Remote/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		30872F6C17CE4A78000F7FE5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "TV Remote/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		30872F6D17CE4A78000F7FE5 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data.h; path = "TV Remote/Data.h"; sourceTree = SOURCE_ROOT; };
+		30872F6E17CE4A78000F7FE5 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data.m; path = "TV Remote/Data.m"; sourceTree = SOURCE_ROOT; };
+		30872F6F17CE4A78000F7FE5 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = "TV Remote/MainView.h"; sourceTree = SOURCE_ROOT; };
+		30872F7017CE4A78000F7FE5 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = "TV Remote/MainView.m"; sourceTree = SOURCE_ROOT; };
+		30872F7117CE4A78000F7FE5 /* TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TV.h; path = "TV Remote/TV.h"; sourceTree = SOURCE_ROOT; };
+		30872F7217CE4A78000F7FE5 /* TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TV.m; path = "TV Remote/TV.m"; sourceTree = SOURCE_ROOT; };
+		30872F7717CE4A99000F7FE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "TV Remote/main.m"; sourceTree = SOURCE_ROOT; };
+		30872F7817CE4A99000F7FE5 /* TV Remote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TV Remote-Info.plist"; path = "TV Remote/TV Remote-Info.plist"; sourceTree = SOURCE_ROOT; };
+		30872F7B17CE4AF4000F7FE5 /* TV Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TV Remote-Prefix.pch"; path = "TV Remote/TV Remote-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		30872F7D17CE4B1B000F7FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = "TV Remote/en.lproj/Credits.rtf"; sourceTree = SOURCE_ROOT; };
+		30872F7F17CE4B1B000F7FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "TV Remote/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		30872F8217CE4B29000F7FE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "TV Remote/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		30872F8517CE4B4A000F7FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "TV Remote/Base.lproj/MainMenu.xib"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +59,7 @@
 		043B07801767D0520012FA86 = {
 			isa = PBXGroup;
 			children = (
-				043B07921767D0520012FA86 /* TV Remote 2 */,
+				043B07921767D0520012FA86 /* TV Remote */,
 				043B078B1767D0520012FA86 /* Frameworks */,
 				043B078A1767D0520012FA86 /* Products */,
 			);
@@ -67,7 +68,7 @@
 		043B078A1767D0520012FA86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				043B07891767D0520012FA86 /* TV Remote 2.app */,
+				043B07891767D0520012FA86 /* TV Remote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,32 +93,33 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		043B07921767D0520012FA86 /* TV Remote 2 */ = {
+		043B07921767D0520012FA86 /* TV Remote */ = {
 			isa = PBXGroup;
 			children = (
-				043B079E1767D0520012FA86 /* AppDelegate.h */,
-				043B079F1767D0520012FA86 /* AppDelegate.m */,
-				30872F6817CE4940000F7FE5 /* MainMenu.xib */,
-				043B07A41767D0520012FA86 /* Images.xcassets */,
+				30872F6B17CE4A78000F7FE5 /* AppDelegate.h */,
+				30872F6C17CE4A78000F7FE5 /* AppDelegate.m */,
+				30872F6D17CE4A78000F7FE5 /* Data.h */,
+				30872F6E17CE4A78000F7FE5 /* Data.m */,
+				30872F6F17CE4A78000F7FE5 /* MainView.h */,
+				30872F7017CE4A78000F7FE5 /* MainView.m */,
+				30872F7117CE4A78000F7FE5 /* TV.h */,
+				30872F7217CE4A78000F7FE5 /* TV.m */,
+				30872F8417CE4B4A000F7FE5 /* MainMenu.xib */,
+				30872F8217CE4B29000F7FE5 /* Images.xcassets */,
 				043B07931767D0520012FA86 /* Supporting Files */,
-				043B07C01767D5D60012FA86 /* MainView.h */,
-				043B07C11767D5D60012FA86 /* MainView.m */,
-				043B07C31767EEB70012FA86 /* TV.h */,
-				043B07C41767EEB70012FA86 /* TV.m */,
-				043B07C617687DD60012FA86 /* Data.h */,
-				043B07C717687DD60012FA86 /* Data.m */,
 			);
+			name = "TV Remote";
 			path = "TV Remote 2";
 			sourceTree = "<group>";
 		};
 		043B07931767D0520012FA86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				043B07941767D0520012FA86 /* TV Remote 2-Info.plist */,
-				043B07951767D0520012FA86 /* InfoPlist.strings */,
-				043B07981767D0520012FA86 /* main.m */,
-				043B079A1767D0520012FA86 /* TV Remote 2-Prefix.pch */,
-				043B079B1767D0520012FA86 /* Credits.rtf */,
+				30872F7717CE4A99000F7FE5 /* main.m */,
+				30872F7817CE4A99000F7FE5 /* TV Remote-Info.plist */,
+				30872F7B17CE4AF4000F7FE5 /* TV Remote-Prefix.pch */,
+				30872F7C17CE4B1B000F7FE5 /* Credits.rtf */,
+				30872F7E17CE4B1B000F7FE5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		043B07881767D0520012FA86 /* TV Remote 2 */ = {
+		043B07881767D0520012FA86 /* TV Remote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 043B07BA1767D0520012FA86 /* Build configuration list for PBXNativeTarget "TV Remote 2" */;
+			buildConfigurationList = 043B07BA1767D0520012FA86 /* Build configuration list for PBXNativeTarget "TV Remote" */;
 			buildPhases = (
 				043B07851767D0520012FA86 /* Sources */,
 				043B07861767D0520012FA86 /* Frameworks */,
@@ -137,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = "TV Remote 2";
+			name = "TV Remote";
 			productName = "TV Remote 2";
-			productReference = 043B07891767D0520012FA86 /* TV Remote 2.app */;
+			productReference = 043B07891767D0520012FA86 /* TV Remote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +153,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Agris Dumins";
 			};
-			buildConfigurationList = 043B07841767D0520012FA86 /* Build configuration list for PBXProject "TV Remote 2" */;
+			buildConfigurationList = 043B07841767D0520012FA86 /* Build configuration list for PBXProject "TV Remote" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -164,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				043B07881767D0520012FA86 /* TV Remote 2 */,
+				043B07881767D0520012FA86 /* TV Remote */,
 			);
 		};
 /* End PBXProject section */
@@ -174,10 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043B07971767D0520012FA86 /* InfoPlist.strings in Resources */,
-				30872F6A17CE4940000F7FE5 /* MainMenu.xib in Resources */,
-				043B07A51767D0520012FA86 /* Images.xcassets in Resources */,
-				043B079D1767D0520012FA86 /* Credits.rtf in Resources */,
+				30872F7A17CE4A99000F7FE5 /* TV Remote-Info.plist in Resources */,
+				30872F8617CE4B4A000F7FE5 /* MainMenu.xib in Resources */,
+				30872F8317CE4B29000F7FE5 /* Images.xcassets in Resources */,
+				30872F8017CE4B1B000F7FE5 /* Credits.rtf in Resources */,
+				30872F8117CE4B1B000F7FE5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,37 +191,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043B07C817687DD60012FA86 /* Data.m in Sources */,
-				043B07A01767D0520012FA86 /* AppDelegate.m in Sources */,
-				043B07C51767EEB70012FA86 /* TV.m in Sources */,
-				043B07991767D0520012FA86 /* main.m in Sources */,
-				043B07C21767D5D60012FA86 /* MainView.m in Sources */,
+				30872F7917CE4A99000F7FE5 /* main.m in Sources */,
+				30872F7317CE4A78000F7FE5 /* AppDelegate.m in Sources */,
+				30872F7417CE4A78000F7FE5 /* Data.m in Sources */,
+				30872F7517CE4A78000F7FE5 /* MainView.m in Sources */,
+				30872F7617CE4A78000F7FE5 /* TV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		043B07951767D0520012FA86 /* InfoPlist.strings */ = {
+		30872F7C17CE4B1B000F7FE5 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				043B07961767D0520012FA86 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		043B079B1767D0520012FA86 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				043B079C1767D0520012FA86 /* en */,
+				30872F7D17CE4B1B000F7FE5 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		30872F6817CE4940000F7FE5 /* MainMenu.xib */ = {
+		30872F7E17CE4B1B000F7FE5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30872F6917CE4940000F7FE5 /* Base */,
+				30872F7F17CE4B1B000F7FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30872F8417CE4B4A000F7FE5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30872F8517CE4B4A000F7FE5 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -304,9 +307,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TV Remote 2/TV Remote 2-Prefix.pch";
-				INFOPLIST_FILE = "TV Remote 2/TV Remote 2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TV Remote/TV Remote-Prefix.pch";
+				INFOPLIST_FILE = "TV Remote/TV Remote-Info.plist";
+				PRODUCT_NAME = "TV Remote";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -317,9 +320,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TV Remote 2/TV Remote 2-Prefix.pch";
-				INFOPLIST_FILE = "TV Remote 2/TV Remote 2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TV Remote/TV Remote-Prefix.pch";
+				INFOPLIST_FILE = "TV Remote/TV Remote-Info.plist";
+				PRODUCT_NAME = "TV Remote";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -327,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		043B07841767D0520012FA86 /* Build configuration list for PBXProject "TV Remote 2" */ = {
+		043B07841767D0520012FA86 /* Build configuration list for PBXProject "TV Remote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				043B07B81767D0520012FA86 /* Debug */,
@@ -336,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		043B07BA1767D0520012FA86 /* Build configuration list for PBXNativeTarget "TV Remote 2" */ = {
+		043B07BA1767D0520012FA86 /* Build configuration list for PBXNativeTarget "TV Remote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				043B07BB1767D0520012FA86 /* Debug */,
