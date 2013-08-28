@@ -27,7 +27,8 @@
         
         if ([chars isEqual: @" "])
             [tv sendKey:@"KEY_MUTE"];
-        else if ([chars isEqual: @"+"])
+        else if ([chars isEqual: @"+"] ||
+				 [chars isEqual: @"="])
             [tv sendKey:@"KEY_VOLUP"];
         else if ([chars isEqual: @"-"])
             [tv sendKey:@"KEY_VOLDOWN"];
