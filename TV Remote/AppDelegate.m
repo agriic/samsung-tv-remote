@@ -22,6 +22,13 @@
     // inits app
     if (standardUserDefaults) _tvIp = [standardUserDefaults stringForKey:@"tvIp"];
     if (_tvIp == NULL) _tvIp = @""; else self.tvIpText.stringValue = _tvIp;
+    
+    self.window.backgroundColor = [NSColor clearColor];
+    self.window.opaque = NO;
+    
+    self.tvIpText.bezeled = NO;
+    self.tvIpText.drawsBackground = YES;
+    self.tvIpText.backgroundColor = [NSColor clearColor];
 }
 
 //- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {

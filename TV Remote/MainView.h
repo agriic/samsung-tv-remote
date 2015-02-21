@@ -13,4 +13,9 @@
 {
     TV* tv;
 }
+
+- (IBAction)clickButton:(id)sender;
+
+- (void) commandReceived:(NSString*)cmd;
+
 @end
